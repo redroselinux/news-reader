@@ -20,9 +20,8 @@ when isMainModule:
       echo "  read <date>    fetch and read a specific article"
       echo "  help           show this help message"
       echo ""
-      echo "examples:"
+      echo "example:"
       echo "  news-reader read 2026\\(9.5\\)"
-      echo "  news-reader mark read latest"
       quit 0
     elif argv[0] == "read":
       if argc == 1:
