@@ -1,0 +1,2 @@
+proc fetchLatest*() =
+    echo "h"
