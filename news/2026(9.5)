@@ -1,0 +1,9 @@
+TITLE: The new 'news-reader' tool
+ACTION-NEEDED: false
+
+;
+We have added a new tool to Redrose, used to read latest Redrose news. 
+
+On the next release, you will be able to use it. Also, we have to note that after all the alpha releases finish, we will become a curated rolling-release distribution updated every Friday.
+This release will add networking and will update the kernel to 7.0.3. We did not make an update before because with no networking, the Copy Fail vulnerability is not a problem. However, after the new release we will take security very seriosuly, of course.
+;
