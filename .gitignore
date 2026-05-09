@@ -1,1 +1,3 @@
-./news_reader
+news_reader
+*tar.zst
+package/
