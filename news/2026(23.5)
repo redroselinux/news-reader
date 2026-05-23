@@ -1,0 +1,9 @@
+TITLE: New plans for our DE
+ACTION-NEEDED: false
+
+;
+After alpha-0.5 releases today, I will be taking a break
+from the low-level stuff and work on something new, which is
+the DE that was planned. The plans for it changed though; it will be a DE based on Weston,
+named LWDE as "Lightweight Wayland Desktop Enviroment". 
+;
