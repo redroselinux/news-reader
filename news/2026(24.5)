@@ -1,0 +1,18 @@
+TITLE: Car v3.15 released!
+ACTION-NEEDED: true
+
+;
+-- Sun 24 May --
+
+A new Car release is out, which fixes a major Symlink Attack vulnerability. Update now:
+    $ su -c 'wget -O /usr/bin/car https://github.com/redroselinux/car/releases/latest/download/car'
+    $ su -c 'chmod 755 /usr/bin/car'
+
+Other than that:
+    [converter] support arch packages
+    [feature] new command why
+    [feature] new command brake, release
+    [feature breaking] system upgrades now follow our curated-rolling model
+    [enhancement] improved command search
+    [optimization] remove duplicate run of readFile()
+;
