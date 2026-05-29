@@ -1,3 +1,4 @@
-news_reader
+news-reader
 *tar.zst
 package/
+build/

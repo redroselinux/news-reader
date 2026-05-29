@@ -1,15 +1,19 @@
 #!/bin/sh
+
 set -e
-version=0.1
+version=0.2
 
-if [ ! -e ./news_reader ]; then
-    nimble build
-fi
-
-rm -rf package
-mkdir package
+echo "Building news-reader package"
+echo " => Compiling news-reader $version [Running 'make']"
+make >/dev/null
+echo " => Creating Car package"
+echo "  ==> Installing to staging directory [Running 'make']"
+make install DESTDIR=$(pwd)/package >/dev/null
+echo "  ==> Creating Car metadata [Running 'echo']"
 echo "version $version" > package/car
-mkdir package/usr
-mkdir package/usr/bin
-cp ./news_reader package/usr/bin/news-reader
+echo "  ==> Creating final Car package [Running 'tar']"
 tar -I zstd -cf news-reader.tar.zst package/
+echo "-> [built] news-reader.tar.zst"
+echo " => Cleaning up [Running 'rm' and 'make']"
+rm -rf package
+make clean >/dev/null
