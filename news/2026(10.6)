@@ -1,0 +1,9 @@
+TITLE: Alpha-0.5.1 coming soon
+ACTION-NEEDED: false
+
+;
+alpha-0.5.1 will be released soon-ish. It introduces a lot of bugfixes:
+- car was broken
+- ncurses was broken (at the time of saying this, still being fixed)
+- FINALLY, finally we do not use the defconfig kernel
+;
