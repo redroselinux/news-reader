@@ -1,0 +1,21 @@
+TITLE: Alpha 0.6 released
+ACTION-NEEDED: false
+
+;
+This is a bugfix release. No crazy big changes were made:
+
+- Finally use a kernel package (#70)
+- Finally include DRM in the kernel config 
+- Fixed `car` unable to unpack packages (#69)
+  - Run `ldconfig` during rootfs build
+- Use the standard runit 3-stage structure
+- Move `ireallyloverunit` to its own repo
+- Improved the Makefile, deprecated Makefile-fedora
+
+The next release will:
+
+- Use `iwd` instead of just `dhcp`
+- Fix shared library issues 
+
+After that, we want to rewrite the installer, and make an ISO builder like `archiso`. Using a Makefile is starting to get messy after months of work on Redrose.
+;
