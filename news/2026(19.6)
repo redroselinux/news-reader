@@ -4,12 +4,12 @@ ACTION-NEEDED: true
 ;
 https://github.com/redroselinux/car/releases/tag/v3.16
 
-- `[feature]` new command `list` to list installed packages
-- `[feature]` new command `tires` to list files of an installed package
-- **`[converter]`** support AppImage packages
-- **`[feature]`** multi-mirror support (separated by `:`)
-- `[feature]` new command `add-repo`/`addrepo` to add a repo
-- `[enhancement]` single source of truth for version via `Version` file
+- [feature] new command list to list installed packages
+- [feature] new command tires to list files of an installed package
+- [converter] support AppImage packages
+- [feature] multi-mirror support (separated by :)
+- [feature] new command add-repo/addrepo to add a repo
+- [enhancement] single source of truth for version via Version file
 
 Please update as instructions will now expect you have Car>=3.16:
     $ su -c 'wget -O /usr/bin/car https://github.com/redroselinux/car/releases/latest/download/car'
