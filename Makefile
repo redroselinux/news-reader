@@ -13,7 +13,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) $(STD) -o $@ $^ -lcurl
 
 build/%.o: src/%.c | build
-	$(CC) $(CFLAGS) -c -o $@ $
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 build:
 	mkdir -p build
