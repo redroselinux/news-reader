@@ -1,0 +1,12 @@
+TITLE: Car v3.18 released!
+ACTION-NEEDED: true
+
+;
+- [feature] self-update integrated into `update`
+- [feature] i didnt want to add it but everyone wanted it - sha256 checks
+- [feature] pick mirrors based on the RepoMirrors file on this repo
+- [misc] a hidden `installer-init` command for the Redrose installer to init car
+- [fix] a lot of logical fixes + fixes of typos
+
+Docs on https://docs.redroselinux.org will get updated soon, and the Redrose installer will use the new
+;
