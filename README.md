@@ -2,6 +2,8 @@
 
 A CLI tool to read the latest Redrose Linux news, written in C.
 
+Full docs: https://docs.redroselinux.org/#/news-reader
+
 ## Installation
 
 If your Redrose system somehow does not have it installed:
